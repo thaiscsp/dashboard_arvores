@@ -70,7 +70,7 @@ st.dataframe(df_selection)
 # Calcula o diâmetro médio das árvores para cada origem e gera um gráfico de barras
 if not df_selection.empty:
     diametro_medio_por_origem = (
-        df_selection.groupby(by=['Origem']).mean()
+        df_selection.groupby(by=['Origem'])
     )
 
     grafico_diametro_medio_por_origem = px.bar(
