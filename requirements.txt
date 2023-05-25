@@ -1,4 +1,3 @@
-pip
 altair
 asttokens
 attrs
@@ -48,7 +47,6 @@ prompt-toolkit
 protobuf
 pure-eval
 pyarrow
-pycairo
 pydeck
 pydub
 Pygments
