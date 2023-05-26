@@ -114,7 +114,7 @@ if not df_selection.empty:
 
 # Ideia inicial de ML - Previsão de terreno necessário para plantio
 st.subheader('Previsão de terreno')
-st.markdown('Insira a altura de árvore desejada para prever o diâmetro que esta ocupará.')
+st.markdown('Insira a altura de árvore desejada para prever o diâmetro que ela ocupará.')
 st.markdown('Isto facilitará a preparação prévia do terreno para o plantio.')
 
 input = st.text_input('Altura (em metros)')
